@@ -239,6 +239,9 @@ function editButton(id){
   }
 }
 
+windows.addEventListener('click', () => {
+    clearSearchResults();
+})
 
 
 

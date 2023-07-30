@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="./assets/css/style3.css">
+    <script src="https://kit.fontawesome.com/05d1f8d0ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="./index.html"><div class="logo-container">
+            <img src="./assets/images/logo.png" alt="app logo" height="100%">
+        </div></a>
+        <div class="location-holder">
+            <span class="other-location">Other</span>
+            <span class="location">Surat, Gujarat, India</span>
+            <span><i class="fa-solid fa-chevron-down" style="color: #db6a1f;"></i>  </span>
+        </div>
+        <div class="nav">
+            <div class="search-page">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span>Search</span>
+            </div>
+            <div class="offer-page">
+                <span><img src="./assets/images/offer.png" alt=""></span>
+                <span>Offers</span>
+                <span class="new-tag">NEW</span>
+            </div>
+            <div class="help-page">
+                <span><img src="./assets/images/help.png" alt=""></span>
+                <span>Help</span>
+            </div>
+            <div class="user-page">
+                <span><img src="./assets/images/user.png" alt=""></span>
+                <span>Sign In</span>
+            </div>
+            <div class="cart-page">
+                <span><img src="./assets/images/cart.png" alt=""></span>
+                <span class="cart-count">0</span>
+            </div>
+
+        </div>
+        <div class="r-nav res">
+            <i class="fa-solid fa-bars" id="nav-button" onclick="toggleNav()"></i>
+            <div class="nav-menu"  id="nav-container">
+                <div class="search-page">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </div>
+                <div class="offer-page">
+                    <span><img src="./assets/images/offer.png" alt=""></span>
+                    <span>Offers</span>
+                    <span class="new-tag">NEW</span>
+                </div>
+                <div class="help-page">
+                    <span><img src="./assets/images/help.png" alt=""></span>
+                    <span>Help</span>
+                </div>
+                <div class="user-page">
+                    <span><img src="./assets/images/user.png" alt=""></span>
+                    <span>Sign In</span>
+                </div>
+                <div class="cart-page">
+                    <span><img src="./assets/images/cart.png" alt=""></span>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <div class="search-bar-container">
+            <input type="text" id="searchInput" placeholder="Search for foods.....">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div id="relatedItemsContainer" class="related-items-container">
+            <!-- <div class="dish-container">
+                <div class="img-container">
+                    <img src="./assets/images/menu/i1.jpg" alt="">
+                </div>
+                <div class="text-container">
+                    <h3>DalFry</h3>
+                    <p>Restaurant</p>
+                </div>
+            </div> -->
+        </div>
+        
+        <div class="favorite-section">
+            <h3>Your favorite dishes</h3>
+            <div class="favorite-container" id="favoriteContainer">
+                <!-- <div class="favorite-dish" id="favoriteDish">
+                    <img src="./assets/images/menu/i6.jpg" alt="no image found"><br>
+                    <h3>
+                        Pizza
+                    </h3>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="meal-details" id="mealDetails">
+
+            <!-- <div class="head-container">
+                <div class="img-container">
+                    <img src="https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg" alt="">
+                </div>
+                <div class="detail-container">
+                    <h1>Pizza Express Margherita </h1>
+                    <h3>Category: Miscellaneous</h3>
+                    <h3>Area: Italian</h3>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="ingredients-container">
+                <h3>Ingredients</h3>
+                <div id="table">
+                </div>
+
+            </div>
+
+            <div class="body-container">
+                <h3>Instructions</h3>
+                <div class="p"> Intructions
+                </div>
+            </div> -->
+
+        </div>
+
+        <div class="app-download-container">
+            <div class="txt-container">
+                <h1>
+                    For better experience,download the Swiggy app now
+                </h1>
+            </div>
+            <div class="button-container">
+                <img src="./assets/images/play_store.webp" alt="">
+                <img src="./assets/images/app_store.webp" alt="">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="logo">
+            <a href="#"><h1>WOK INDI FOOD</h1></a>
+            <p>&#169; 2023 ASB Technologies Pvt. Ltd</p>
+        </div>
+        <div class="company">
+            <a href="#"><h3>Company</h3></a>
+            <a href="#"><p>About</p></a>
+            <a href="#"><p>Career</p></a>
+            <a href="#"><p>Team</p></a>
+            <a href="#"><p>others</p></a>
+        </div>
+        <div>
+            <a href="#"><h3>Contact Us</h3></a>
+            <a href="#"><p>Help & Support</p></a>
+            <a href="#"><p>Partner with us</p></a>
+            <a href="#"><p>Ride with us</p></a>
+            <a href="#"><h3 style="margin-top: 1rem;">Legal</h3></a>
+            <a href="#"><p>Terms & Conditions</p></a>
+            <a href="#"><p>Cookie Policy</p></a>
+            <a href="#"><p>Privacy Policy</p></a>
+        </div>
+        <div>
+            <a href="#"><h3>We deliver to</h3></a>
+            <a href="#"><p>Banglore</p></a>
+            <a href="#"><p>Mumbai</p></a>
+            <a href="#"><p>Ahemdabad</p></a>
+            <a href="#"><p>Delhi</p></a>
+            <a href="#"><p>Pune</p></a>
+            <a href="#"><p>Hydrabad</p></a>
+            <a href="#"><p>+591 cities</p></a>
+        </div>
+    </footer>
+
+    <script src="./assets/js/search.js"></script>
+</body>
+</html>

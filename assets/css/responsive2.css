@@ -1,0 +1,29 @@
+@media screen and (max-width:980px){
+
+    .header .nav{
+        display:none;
+    }
+
+    .r-nav{
+        display:block;
+        font-size: 1.4rem;
+    }
+
+    .header .logo-container img{
+        width: 60px;
+    }
+
+    main > div{
+        width: 90%;
+    }
+
+    .inner-container2{
+        justify-content: left;
+    }
+
+    .inner-container2 > div{
+        margin-right:1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,78 @@
+/* 
+res class for remove in width above 980px
+pc class for remove in width below 980px
+pc2 class for remove in width below 720px */
+
+
+
+@media screen and (max-width:980px){
+
+    .header .nav{
+        display:none;
+    }
+
+    .r-nav{
+        display:block;
+        font-size: 1.4rem;
+    }
+
+    .header .logo-container img{
+        width: 60px;
+    }
+
+    .banner-txt-container > h1{
+        font-size: 3rem;
+    }
+    .banner-txt-container > h3{
+        display: none;
+    }
+
+    .filter-container > div{
+        margin: 5px;
+        padding: 5px 10px;
+    }
+
+
+
+    footer div{
+        margin: 0 1rem;
+    }
+   
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .pc2{
+        display: none;
+    }
+
+    .banner-txt-container > h1{
+        font-size: 1.3rem;
+    }
+
+    .app-download-container{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+
+    .app-download-container > .txt-container{
+        width: 100%;
+    }
+
+    footer{
+        justify-content: space-between;
+    }
+
+    footer .logo{
+        order: 20;
+        margin: 2rem 3rem;
+    }
+
+    footer .company{
+        order: 4;
+        margin-top: 1rem;
+    }
+
+}

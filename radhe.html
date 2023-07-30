@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhe Restaurant</title>
+
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="./assets/css/responsive2.css">
+    <script src="https://kit.fontawesome.com/05d1f8d0ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="header">
+        <a href="./index.html"><div class="logo-container">
+            <img src="./assets/images/logo.png" alt="app logo" height="100%">
+        </div></a>
+        <div class="location-holder">
+            <span class="other-location">Other</span>
+            <span class="location">Surat, Gujarat, India</span>
+            <span><i class="fa-solid fa-chevron-down" style="color: #db6a1f;"></i>  </span>
+        </div>
+        <div class="nav">
+            <div class="search-page">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span>Search</span>
+            </div>
+            <div class="offer-page">
+                <span><img src="./assets/images/offer.png" alt=""></span>
+                <span>Offers</span>
+                <span class="new-tag">NEW</span>
+            </div>
+            <div class="help-page">
+                <span><img src="./assets/images/help.png" alt=""></span>
+                <span>Help</span>
+            </div>
+            <div class="user-page">
+                <span><img src="./assets/images/user.png" alt=""></span>
+                <span>Sign In</span>
+            </div>
+            <div class="cart-page">
+                <span><img src="./assets/images/cart.png" alt=""></span>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+        <div class="r-nav res">
+            <i class="fa-solid fa-bars" id="nav-button" onclick="toggleNav()"></i>
+            <div class="nav-menu"  id="nav-container">
+                <div class="search-page">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </div>
+                <div class="offer-page">
+                    <span><img src="./assets/images/offer.png" alt=""></span>
+                    <span>Offers</span>
+                    <span class="new-tag">NEW</span>
+                </div>
+                <div class="help-page">
+                    <span><img src="./assets/images/help.png" alt=""></span>
+                    <span>Help</span>
+                </div>
+                <div class="user-page">
+                    <span><img src="./assets/images/user.png" alt=""></span>
+                    <span>Sign In</span>
+                </div>
+                <div class="cart-page">
+                    <span><img src="./assets/images/cart.png" alt=""></span>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="head1 container1">
+            <div>
+                <p>Home / Surat / Radhe Restaurant </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        
+        <div class="head2 container1">
+            <div>
+                <h1>Radhe Restaurant</h1>
+                <p>Chinese, North Indian</p>
+                <p>Rustampura, 2.5 km</p>
+            </div>
+            <div class="btn-container">
+                <button class="btn1"><i class="fa-solid fa-star"></i> 4.4</button><br>
+                <button class="btn2">5k+ ratings </button>
+            </div>
+        </div>
+
+        <div class="container2">
+            <span class="a1"><i class="fa-solid fa-stopwatch"></i> 19 MINS</span>
+            <span class="a1"> <i class="fa-solid fa-indian-rupee-sign"></i> 200 for two</span>
+            <div class="inner-container2">
+                <div>
+                    <span><img src="./assets/images/offer.png" alt=""></span>
+                    <span class="ot">FLAT ₹125 OFF</span><br>
+                    <span class="ot-des">USE <b>SUPERSAVER</b> | ABOVE ₹199</span>
+                </div>
+                <div>
+                    <span><img src="./assets/images/offer.png" alt=""></span>
+                    <span class="ot">60% OFF UPTO ₹120</span><br>
+                    <span class="ot-des">USE <b>TRYNEW</b> | ABOVE ₹149</span>
+                </div>
+                <div>
+                    <span><img src="./assets/images/offer.png" alt=""></span>
+                    <span class="ot">FLAT ₹175 OFF</span><br>
+                    <span class="ot-des">USE <b>MEGASAVER</b> | ABOVE ₹349</span>
+                </div>
+            </div>
+            <span class="veg"><i class="fa-solid fa-seedling"></i> PURE VEG</span>
+        </div>
+
+        <div class="container3">
+            <div class="container3-header">
+                <div>
+                    <h3>Recommended (60)</h3>
+                </div>
+                <div class="arrow-container" onclick="dropToggle(0)">
+                    <i class="fa-solid fa-chevron-down" id=""></i>
+                </div>
+            </div>
+
+            <div class="inner-container3" id="">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="container3-header">
+                <div>
+                    <h3>Main Course (3)</h3>
+                </div>
+                <div class="arrow-container" onclick="dropToggle(1)">
+                    <i class="fa-solid fa-chevron-down" id=""></i>
+                </div>
+            </div>
+
+            <div class="inner-container3" id="">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="container3-header">
+                <div>
+                    <h3>Punjabi (10)</h3>
+                </div>
+                <div class="arrow-container" onclick="dropToggle(2)">
+                    <i class="fa-solid fa-chevron-down" id=""></i>
+                </div>
+            </div>
+
+            <div class="inner-container3" id="">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="container3-header">
+                <div>
+                    <h3>Chinese (17)</h3>
+                </div>
+                <div class="arrow-container" onclick="dropToggle(3)">
+                    <i class="fa-solid fa-chevron-down" id=""></i>
+                </div>
+            </div>
+
+            <div class="inner-container3" id="">
+            </div>
+        </div>
+
+        <div class="container4">
+            <img src="./assets/images/menu/fssai_final_edss9i.webp" alt="">
+            <span >Applied for Licence</span>
+            <h3>Radhe Restaurant</h3>
+            <p>(Outlet: Rustampura)</p>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Singapuri wadi,Rustampura main road Behind 21st century Building, Ring Rd, Surat, Gujarat 395002
+            </p>
+        </div>
+
+        <div class="btn-container">
+            <a href="#"><button class="dropup-button"><i class="fa-solid fa-utensils"></i> &nbsp; BROWSE MENUS</button></a>
+        </div>
+        
+
+    </main>
+
+
+    <script src="./assets/js/menu.js"></script>
+</body>
+</html>

@@ -240,9 +240,10 @@ function editButton(id){
   }
 }
 
-window.addEventListener('click', () => {
-    clearSearchResults();
+window.addEventListener('click', ()=>{
+  clearSearchResults();
 })
+
 
 
 

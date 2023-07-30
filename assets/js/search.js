@@ -193,6 +193,12 @@ function renderFavorite(){
   const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
   const favoriteContainer = document.getElementById('favoriteContainer');
   favoriteContainer.innerHTML = "";
+  if(favorites.length == 0){
+        console.log("here");
+        favoriteContainer.innerHTML = "<h4>There are no dishes in this section</h4>";
+        return;
+  }
+    
   favorites.forEach(id => {
     getMeal2(id); 
   });

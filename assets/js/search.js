@@ -27,6 +27,7 @@ const si = document.getElementById('searchInput');
 const ric = document.getElementById('relatedItemsContainer');
 
 si.addEventListener('input',handleSearch);
+si.addEventListener('click',handleSearch);
 
 function handleSearch(){
     const searchTerm = si.value.trim();
@@ -239,7 +240,7 @@ function editButton(id){
   }
 }
 
-windows.addEventListener('click', () => {
+window.addEventListener('click', () => {
     clearSearchResults();
 })
 
